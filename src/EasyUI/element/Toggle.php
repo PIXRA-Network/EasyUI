@@ -8,9 +8,7 @@
 
 declare(strict_types=1);
 
-
 namespace EasyUI\element;
-
 
 class Toggle extends Element {
 
@@ -24,10 +22,6 @@ class Toggle extends Element {
 
     public function getSubmittedChoice(): ?bool {
         return $this->submittedChoice;
-    }
-
-    public function isReadOnly(): bool {
-        return false;
     }
 
     public function getType(): string {

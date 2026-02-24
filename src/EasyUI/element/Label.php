@@ -18,10 +18,6 @@ class Label extends Element {
         parent::__construct($headerText);
     }
 
-    public function isReadOnly(): bool {
-        return true;
-    }
-
     public function getType(): string {
         return Element::TYPE_LABEL;
     }

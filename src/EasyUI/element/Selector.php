@@ -8,9 +8,7 @@
 
 declare(strict_types=1);
 
-
 namespace EasyUI\element;
-
 
 use InvalidArgumentException;
 
@@ -75,10 +73,6 @@ abstract class Selector extends Element {
                 unset($this->options[$key]);
             }
         }
-    }
-
-    public function isReadOnly(): bool {
-        return false;
     }
 
     public function assignResult($result): void {

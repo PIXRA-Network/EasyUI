@@ -8,9 +8,7 @@
 
 declare(strict_types=1);
 
-
 namespace EasyUI\element;
-
 
 class Slider extends Element {
 
@@ -32,10 +30,6 @@ class Slider extends Element {
 
     public function getSubmittedStep(): ?float {
         return $this->submittedStep;
-    }
-
-    public function isReadOnly(): bool {
-        return false;
     }
 
     public function getType(): string {

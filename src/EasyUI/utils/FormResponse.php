@@ -8,9 +8,7 @@
 
 declare(strict_types=1);
 
-
 namespace EasyUI\utils;
-
 
 use EasyUI\element\Dropdown;
 use EasyUI\element\Element;
